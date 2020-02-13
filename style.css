@@ -1,1 +1,43 @@
-/* css */
+div{
+  width: 50%;
+  margin: auto;
+}
+
+.primo-blocco{
+  width: auto;
+  height: auto;
+}
+
+.oggetto{
+  display: inline-block;
+  position: relative;
+  width: 170px;
+  height: 220px;
+}
+
+.percentuale1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+}
+
+.percentuale2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+}
+
+.cuore{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 30px;
+  color: red;
+  opacity: 0;
+
+}
+.oggetto:hover .cuore{
+  opacity: 1;
+}
